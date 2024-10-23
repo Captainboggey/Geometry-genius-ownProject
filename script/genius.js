@@ -27,6 +27,13 @@ function rhombusBtn(){
     setParameter('rhombus-answer',equation);
     
 }
+function pentagonBtn(){
+    const p1Box = getParameter('p-box');
+    const b3Box = getParameter('b3-box');
+    const equation= 0.5*p1Box*b3Box;
+    setParameter('pentagon-answer',equation);
+
+}
 
 function getParameter(writtenElement) {
   const element = document.getElementById(writtenElement);

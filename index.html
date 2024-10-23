@@ -125,18 +125,18 @@
               </figure>
               <div class="card-body">
                 <h2 class="card-title">Pentagon</h2>
-                <p>Area (A) = 0.5 X b X h </p>
+                <p>Area (A) = 0.5 X p X b </p>
                 <div class="flex">
-                  <input class="w-24" type="text" placeholder="b">
+                  <input id="p-box" class="w-24" type="text" placeholder="p">
                   <span class="ml-2 mr-2">cm</span>
-                  <input class="w-24" type="text" placeholder="h">
+                  <input id="b3-box" class="w-24" type="text" placeholder="b">
                   <span class="ml-2 mr-2">cm</span>
                 </div>
                 <div>
-                  <p>Answer: <span>0</span> <span>cm<sup>2</sup></span></p>
+                  <p>Answer: <span id="pentagon-answer">0</span> <span>cm<sup>2</sup></span></p>
                 </div>
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary w-full">Calculate</button>
+                  <button onclick="pentagonBtn()" class="btn btn-primary w-full">Calculate</button>
                 </div>
               </div>
             </div>
