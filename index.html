@@ -149,18 +149,18 @@
               </figure>
               <div class="card-body">
                 <h2 class="card-title">Ellipse</h2>
-                <p>Area (A) = 0.5 X b X h </p>
+                <p>Area (A) = πab  </p>
                 <div class="flex">
-                  <input class="w-24" type="text" placeholder="b">
+                  <input id="a-box" class="w-24" type="text" placeholder="a">
                   <span class="ml-2 mr-2">cm</span>
-                  <input class="w-24" type="text" placeholder="h">
+                  <input id="b4-box" class="w-24" type="text" placeholder="b">
                   <span class="ml-2 mr-2">cm</span>
                 </div>
                 <div>
-                  <p>Answer: <span>0</span> <span>cm<sup>2</sup></span></p>
+                  <p>Answer: <span id="ellipse-answer">0</span> <span>cm<sup>2</sup></span></p>
                 </div>
                 <div class="card-actions justify-end">
-                  <button class="btn btn-primary w-full">Calculate</button>
+                  <button onclick="ellipseBtn()" class="btn btn-primary w-full">Calculate</button>
                 </div>
               </div>
             </div>

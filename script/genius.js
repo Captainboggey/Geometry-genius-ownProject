@@ -32,8 +32,15 @@ function pentagonBtn(){
     const b3Box = getParameter('b3-box');
     const equation= 0.5*p1Box*b3Box;
     setParameter('pentagon-answer',equation);
-
 }
+
+    function ellipseBtn(){
+        const aBox= getParameter('a-box');
+        const b4Box= getParameter('b4-box');
+        const equation= (3.1416)*aBox*b4Box;
+        setParameter('ellipse-answer',equation)
+    }
+
 
 function getParameter(writtenElement) {
   const element = document.getElementById(writtenElement);
